@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Picture-in-picture",
+  "description": "Searches for video element and allows user to toggle Google Chrome experimental Picture in Picture playback if available.",
+  "version": "1.0.0",
+  "author": "simecekjiri95@gmail.com",
+  "browser_action": {
+    "default_icon": "tab-icon.png",
+    "default_title": "Open PiP"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "permissions": ["activeTab"]
+}
